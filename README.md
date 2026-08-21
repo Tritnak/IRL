@@ -1,7 +1,7 @@
 # IRL
-A fun game you can play IRL!
+A fun game you can play IRL (In Real Life)!
 
-The missions(.py) where all created by ChatGPT
+The missions(.py) where all created by ChatGPT, but revised by me for anychange they would have need.
 
-The goal of the game is to complete all the missions (in any order), and buy upgrades and items at the store (currently in progress).
-I'm now working on the store, making the add mission button work and save that mission for other games, adding final missions, adding secret missions, adding achievements and revising all the missions ChatGPT generated, because there are some very boring. And I have plans to add more things to the game!
+The goal of the game is to fight boredom by completing all the missions given (in any order), and buy upgrades and items at the store (currently in progress).
+I'm now working on the store, making the add mission button work and save that mission for other games, adding final missions, adding secret missions and adding achievements. And I have plans to add more things to the game!
