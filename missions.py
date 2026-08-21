@@ -118,7 +118,7 @@ missions = [
     },
 
     {
-        "name": "Learn ten new words and use them with a stranger",
+        "name": "Learn ten new words and use them with strangers",
         "xp": 60,
         "gc": 25,
         "skills": {
@@ -175,7 +175,7 @@ missions = [
     },
 
     {
-        "name": "Identify Five Different Birds",
+        "name": "Identify three different birds",
         "xp": 70,
         "gc": 30,
         "skills": {
@@ -184,7 +184,7 @@ missions = [
     },
 
     {
-        "name": "Find Three Different Types of Plants",
+        "name": "Find five different types of plants",
         "xp": 70,
         "gc": 30,
         "skills": {
@@ -194,7 +194,7 @@ missions = [
     },
 
     {
-        "name": "Walk 10 Kilometers",
+        "name": "Walk 10 kilometers",
         "xp": 120,
         "gc": 50,
         "skills": {
@@ -203,7 +203,7 @@ missions = [
     },
 
     {
-        "name": "Climb a Hill",
+        "name": "Climb a hill",
         "xp": 100,
         "gc": 45,
         "skills": {
@@ -213,7 +213,7 @@ missions = [
     },
 
     {
-        "name": "Swim for 30 Minutes",
+        "name": "Swim/Run for 30 minutes",
         "xp": 100,
         "gc": 45,
         "skills": {
@@ -222,7 +222,7 @@ missions = [
     },
 
     {
-        "name": "Complete a Tough Workout",
+        "name": "Complete a tough workout",
         "xp": 120,
         "gc": 55,
         "skills": {
@@ -231,7 +231,7 @@ missions = [
     },
 
     {
-        "name": "Wake Up Earlier Than Usual",
+        "name": "Wake up earlier than usual",
         "xp": 70,
         "gc": 30,
         "skills": {
@@ -240,7 +240,7 @@ missions = [
     },
 
     {
-        "name": "Go Outside During Bad Weather",
+        "name": "Go outside during bad weather",
         "xp": 100,
         "gc": 45,
         "skills": {
@@ -250,7 +250,7 @@ missions = [
     },
 
     {
-        "name": "Explore a Place at Night",
+        "name": "Explore a place at night",
         "xp": 110,
         "gc": 50,
         "skills": {
@@ -260,7 +260,7 @@ missions = [
     },
 
     {
-        "name": "Find the Highest Point Nearby",
+        "name": "Find the highest point nearby",
         "xp": 100,
         "gc": 45,
         "skills": {
@@ -270,7 +270,7 @@ missions = [
     },
 
     {
-        "name": "Navigate Without GPS",
+        "name": "Explore without GPS",
         "xp": 100,
         "gc": 45,
         "skills": {
@@ -280,7 +280,7 @@ missions = [
     },
 
     {
-        "name": "Create a Map of Your Surroundings",
+        "name": "Create a map of your surroundings as accurate as posible without using digital maps",
         "xp": 100,
         "gc": 45,
         "skills": {
@@ -290,7 +290,7 @@ missions = [
     },
 
     {
-        "name": "Follow a Random Direction for 30 Minutes",
+        "name": "Follow a random direction for 30 minutes",
         "xp": 90,
         "gc": 40,
         "skills": {
@@ -299,35 +299,16 @@ missions = [
     },
 
     {
-        "name": "Find a Hidden Detail in a Familiar Place",
+        "name": "Find a hidden detail in a familiar place",
         "xp": 70,
         "gc": 30,
         "skills": {
             "observation": 5
         }
     },
-
+    
     {
-        "name": "Describe a Place Without Taking a Photo",
-        "xp": 70,
-        "gc": 30,
-        "skills": {
-            "observation": 4,
-            "creativity": 2
-        }
-    },
-
-    {
-        "name": "Write Down Ten Things You Notice",
-        "xp": 60,
-        "gc": 25,
-        "skills": {
-            "observation": 5
-        }
-    },
-
-    {
-        "name": "Create a Playlist for an Adventure",
+        "name": "Create a playlist for an adventure",
         "xp": 60,
         "gc": 25,
         "skills": {
@@ -336,7 +317,7 @@ missions = [
     },
 
     {
-        "name": "Design a Personal Logo",
+        "name": "Design a personal logo",
         "xp": 90,
         "gc": 40,
         "skills": {
@@ -345,17 +326,7 @@ missions = [
     },
 
     {
-        "name": "Write a Letter to Your Future Self",
-        "xp": 80,
-        "gc": 35,
-        "skills": {
-            "creativity": 4,
-            "observation": 2
-        }
-    },
-
-    {
-        "name": "Create a New Recipe",
+        "name": "Create a new recipe",
         "xp": 100,
         "gc": 45,
         "skills": {
@@ -364,7 +335,7 @@ missions = [
     },
 
     {
-        "name": "Make Something from Recycled Materials",
+        "name": "Make something from recycled materials",
         "xp": 100,
         "gc": 45,
         "skills": {
@@ -373,7 +344,7 @@ missions = [
     },
 
     {
-        "name": "Learn a Simple Magic Trick",
+        "name": "Learn a simple magic trick",
         "xp": 80,
         "gc": 35,
         "skills": {
@@ -383,7 +354,7 @@ missions = [
     },
 
     {
-        "name": "Perform a Magic Trick for Someone",
+        "name": "Perform a magic trick for someone",
         "xp": 110,
         "gc": 50,
         "skills": {
@@ -393,7 +364,7 @@ missions = [
     },
 
     {
-        "name": "Make a Stranger Smile",
+        "name": "Make a stranger smile",
         "xp": 80,
         "gc": 35,
         "skills": {
@@ -403,7 +374,7 @@ missions = [
     },
 
     {
-        "name": "Ask for a Recommendation",
+        "name": "Ask for a recommendation",
         "xp": 60,
         "gc": 25,
         "skills": {
@@ -413,7 +384,7 @@ missions = [
     },
 
     {
-        "name": "Visit a Place Alone",
+        "name": "Visit a turistic place alone",
         "xp": 90,
         "gc": 40,
         "skills": {
@@ -423,7 +394,7 @@ missions = [
     },
 
     {
-        "name": "Try a Food You Have Never Eaten",
+        "name": "Try a food you have never eaten",
         "xp": 70,
         "gc": 30,
         "skills": {
@@ -433,7 +404,7 @@ missions = [
     },
 
     {
-        "name": "Learn a New Skill for 30 Minutes",
+        "name": "Learn a new skill for 30 minutes",
         "xp": 80,
         "gc": 35,
         "skills": {
@@ -443,7 +414,7 @@ missions = [
     },
 
     {
-        "name": "Memorize a Short Speech",
+        "name": "Memorize a short speech",
         "xp": 90,
         "gc": 40,
         "skills": {
@@ -453,7 +424,7 @@ missions = [
     },
 
     {
-        "name": "Give a Short Speech",
+        "name": "Give a short speech",
         "xp": 120,
         "gc": 55,
         "skills": {
@@ -463,7 +434,7 @@ missions = [
     },
 
     {
-        "name": "Teach Someone Something",
+        "name": "Teach someone something",
         "xp": 110,
         "gc": 50,
         "skills": {
@@ -473,7 +444,7 @@ missions = [
     },
 
     {
-        "name": "Learn Something About Local History",
+        "name": "Learn something about local history",
         "xp": 80,
         "gc": 35,
         "skills": {
@@ -483,17 +454,7 @@ missions = [
     },
 
     {
-        "name": "Find an Old Building",
-        "xp": 80,
-        "gc": 35,
-        "skills": {
-            "exploration": 4,
-            "observation": 3
-        }
-    },
-
-    {
-        "name": "Find the Oldest Thing You Can",
+        "name": "Find the oldest thing you can",
         "xp": 70,
         "gc": 30,
         "skills": {
@@ -502,7 +463,7 @@ missions = [
     },
 
     {
-        "name": "Take a Photo That Tells a Story",
+        "name": "Take a photo that tells a story",
         "xp": 90,
         "gc": 40,
         "skills": {
@@ -512,7 +473,7 @@ missions = [
     },
 
     {
-        "name": "Record a One Minute Documentary",
+        "name": "Record a one minute documentary",
         "xp": 100,
         "gc": 45,
         "skills": {
@@ -522,16 +483,7 @@ missions = [
     },
 
     {
-        "name": "Create a Time Capsule",
-        "xp": 100,
-        "gc": 45,
-        "skills": {
-            "creativity": 5
-        }
-    },
-
-    {
-        "name": "Spend an Hour Exploring Nature",
+        "name": "Spend an hour exploring nature",
         "xp": 90,
         "gc": 40,
         "skills": {
@@ -541,7 +493,7 @@ missions = [
     },
 
     {
-        "name": "Find a New Fishing Spot",
+        "name": "Find a new fishing spot",
         "xp": 100,
         "gc": 45,
         "skills": {
@@ -551,7 +503,7 @@ missions = [
     },
 
     {
-        "name": "Spend an Hour Fishing",
+        "name": "Spend an hour fishing",
         "xp": 80,
         "gc": 35,
         "skills": {
@@ -559,9 +511,18 @@ missions = [
             "observation": 4
         }
     },
+    
+    {
+        "name": "Fish at least one fish",
+        "xp": 90,
+        "gc": 30,
+        "skills": {
+            "observation": 5
+        }
+    },
 
     {
-        "name": "Identify Five Sounds Around You",
+        "name": "Identify five sounds around you",
         "xp": 60,
         "gc": 25,
         "skills": {
@@ -570,7 +531,7 @@ missions = [
     },
 
     {
-        "name": "Walk Somewhere Without Knowing the Destination",
+        "name": "Walk somewhere without knowing the destination",
         "xp": 100,
         "gc": 45,
         "skills": {
@@ -580,7 +541,7 @@ missions = [
     },
 
     {
-        "name": "Find a Place with a Great View",
+        "name": "Find a place with a great view",
         "xp": 90,
         "gc": 40,
         "skills": {
@@ -590,7 +551,7 @@ missions = [
     },
 
     {
-        "name": "Take a Photo Without Looking at the Screen",
+        "name": "Take a photo without looking at the screen",
         "xp": 60,
         "gc": 25,
         "skills": {
@@ -600,16 +561,7 @@ missions = [
     },
 
     {
-        "name": "Create a Piece of Art in 30 Minutes",
-        "xp": 90,
-        "gc": 40,
-        "skills": {
-            "creativity": 5
-        }
-    },
-
-    {
-        "name": "Write a Poem About Your Day",
+        "name": "Invent a fictional character",
         "xp": 70,
         "gc": 30,
         "skills": {
@@ -618,16 +570,7 @@ missions = [
     },
 
     {
-        "name": "Invent a Fictional Character",
-        "xp": 70,
-        "gc": 30,
-        "skills": {
-            "creativity": 5
-        }
-    },
-
-    {
-        "name": "Write a Scene for a Movie",
+        "name": "Write a scene for a movie",
         "xp": 90,
         "gc": 40,
         "skills": {
@@ -636,7 +579,7 @@ missions = [
     },
 
     {
-        "name": "Act Out a Scene",
+        "name": "Act out a scene for a movie",
         "xp": 100,
         "gc": 45,
         "skills": {
@@ -646,7 +589,7 @@ missions = [
     },
 
     {
-        "name": "Record Yourself Explaining Something",
+        "name": "Record yourself explaining something",
         "xp": 90,
         "gc": 40,
         "skills": {
@@ -656,7 +599,7 @@ missions = [
     },
 
     {
-        "name": "Complete a Task You Have Been Avoiding",
+        "name": "Complete a task you have been avoiding",
         "xp": 120,
         "gc": 55,
         "skills": {
@@ -666,7 +609,7 @@ missions = [
     },
 
     {
-        "name": "Clean and Organize Your Workspace",
+        "name": "Clean and organize your workspace",
         "xp": 70,
         "gc": 30,
         "skills": {
@@ -676,7 +619,7 @@ missions = [
     },
 
     {
-        "name": "Finish a Book Chapter",
+        "name": "Finish a book chapter",
         "xp": 70,
         "gc": 30,
         "skills": {
@@ -685,7 +628,7 @@ missions = [
     },
 
     {
-        "name": "Study Something for One Hour",
+        "name": "Study something for half an hour",
         "xp": 90,
         "gc": 40,
         "skills": {
@@ -694,7 +637,7 @@ missions = [
     },
 
     {
-        "name": "Learn a New Fact About Science",
+        "name": "Learn a new fact about science",
         "xp": 60,
         "gc": 25,
         "skills": {
@@ -704,7 +647,7 @@ missions = [
     },
 
     {
-        "name": "Solve a Puzzle",
+        "name": "Solve a puzzle",
         "xp": 70,
         "gc": 30,
         "skills": {
@@ -714,7 +657,7 @@ missions = [
     },
 
     {
-        "name": "Complete a Logic Challenge",
+        "name": "Complete a logic challenge",
         "xp": 90,
         "gc": 40,
         "skills": {
@@ -724,7 +667,7 @@ missions = [
     },
 
     {
-        "name": "Find Three Things You Can Improve",
+        "name": "Find three things you can improve",
         "xp": 80,
         "gc": 35,
         "skills": {
@@ -734,7 +677,7 @@ missions = [
     },
 
     {
-        "name": "Repair Something Small",
+        "name": "Repair something small",
         "xp": 100,
         "gc": 45,
         "skills": {
@@ -744,7 +687,7 @@ missions = [
     },
 
     {
-        "name": "Build a Simple Useful Object",
+        "name": "Build a simple useful object",
         "xp": 110,
         "gc": 50,
         "skills": {
@@ -753,7 +696,7 @@ missions = [
     },
 
     {
-        "name": "Spend an Hour Improving a Personal Project",
+        "name": "Spend an hour improving a personal project",
         "xp": 100,
         "gc": 45,
         "skills": {
@@ -763,7 +706,7 @@ missions = [
     },
 
     {
-        "name": "Organize Your Digital Files",
+        "name": "Organize your digital files",
         "xp": 70,
         "gc": 30,
         "skills": {
@@ -773,7 +716,7 @@ missions = [
     },
 
     {
-        "name": "Delete Ten Unnecessary Files",
+        "name": "Delete unnecessary files",
         "xp": 50,
         "gc": 20,
         "skills": {
@@ -782,7 +725,7 @@ missions = [
     },
 
     {
-        "name": "Create a Personal Challenge",
+        "name": "Create a personal challenge",
         "xp": 80,
         "gc": 35,
         "skills": {
@@ -792,7 +735,7 @@ missions = [
     },
 
     {
-        "name": "Complete Your Personal Challenge",
+        "name": "Complete a personal challenge",
         "xp": 130,
         "gc": 60,
         "skills": {
@@ -802,7 +745,7 @@ missions = [
     },
 
     {
-        "name": "Go Somewhere You Normally Would Not Go",
+        "name": "Go somewhere you normally wouldn't go",
         "xp": 100,
         "gc": 45,
         "skills": {
@@ -812,7 +755,7 @@ missions = [
     },
 
     {
-        "name": "Find Three Interesting Doors",
+        "name": "Find an interesting door",
         "xp": 60,
         "gc": 25,
         "skills": {
@@ -821,7 +764,7 @@ missions = [
     },
 
     {
-        "name": "Find a Building with Unusual Architecture",
+        "name": "Find a building with unusual architecture",
         "xp": 80,
         "gc": 35,
         "skills": {
@@ -831,7 +774,7 @@ missions = [
     },
 
     {
-        "name": "Discover a New Route Home",
+        "name": "Discover a new route to get home",
         "xp": 80,
         "gc": 35,
         "skills": {
@@ -840,7 +783,7 @@ missions = [
     },
 
     {
-        "name": "Find a Quiet Place to Think",
+        "name": "Find a quiet place to think",
         "xp": 70,
         "gc": 30,
         "skills": {
@@ -850,7 +793,7 @@ missions = [
     },
 
     {
-        "name": "Spend 20 Minutes Thinking Without Distractions",
+        "name": "Spend 20 minutes thinking without distractions",
         "xp": 80,
         "gc": 35,
         "skills": {
@@ -860,7 +803,7 @@ missions = [
     },
 
     {
-        "name": "Write Down Three New Ideas",
+        "name": "Write down three new ideas",
         "xp": 60,
         "gc": 25,
         "skills": {
@@ -869,7 +812,7 @@ missions = [
     },
 
     {
-        "name": "Turn One Idea into a Plan",
+        "name": "Turn one idea into a plan",
         "xp": 90,
         "gc": 40,
         "skills": {
@@ -879,7 +822,7 @@ missions = [
     },
 
     {
-        "name": "Do Something Slightly Embarrassing on Purpose",
+        "name": "Do something slightly embarrassing on purpose",
         "xp": 110,
         "gc": 50,
         "skills": {
@@ -888,7 +831,7 @@ missions = [
     },
 
     {
-        "name": "Ask for Help with Something",
+        "name": "Ask for help with something",
         "xp": 70,
         "gc": 30,
         "skills": {
@@ -897,7 +840,7 @@ missions = [
     },
 
     {
-        "name": "Say Yes to a New Opportunity",
+        "name": "Say yes to a new opportunity",
         "xp": 100,
         "gc": 45,
         "skills": {
@@ -906,17 +849,7 @@ missions = [
     },
 
     {
-        "name": "Spend an Entire Afternoon Outside",
-        "xp": 100,
-        "gc": 45,
-        "skills": {
-            "resistance": 4,
-            "exploration": 4
-        }
-    },
-
-    {
-        "name": "Reach a Place Only Using Your Memory",
+        "name": "Reach a place only using your memory",
         "xp": 100,
         "gc": 45,
         "skills": {
@@ -926,7 +859,7 @@ missions = [
     },
 
     {
-        "name": "Find Something Beautiful in an Ordinary Place",
+        "name": "Find something beautiful in an ordinary place",
         "xp": 80,
         "gc": 35,
         "skills": {
@@ -939,14 +872,11 @@ missions = [
 
 final_missions = [
     {
-        "name": "Completar la operación",
+        "name": "Go to the movies alone",
         "xp": 500,
         "gc": 250,
         "skills": {
-            "exploration": 5,
-            "creativity": 5,
-            "resistance": 5,
-            "observation": 5,
+            "exploration": 1,
             "audacity": 5
         }
     }
