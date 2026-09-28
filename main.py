@@ -25,6 +25,7 @@ inventory = [
 ]
 
 active_missions = []
+active_final_missions = []
 
 def new_mission():
     name = input("Name of the mission: ")
@@ -107,16 +108,25 @@ def complete_mission(mission):
     
 def activate_missions():
     global active_missions
+    global active_final_missions
+    
     active_missions = choose_missions()
-    return active_missions
+    active_final_missions = choose_final_mission()
+    
+    return active_final_missions,active_missions
     
 def search_mission(name):
     global active_missions
+    global active_final_missions
+    
     for mission in active_missions:
-
-        if mission["name"].lower() == name.lower():
-            return mission
-        
+    
+            if mission["name"].lower() == name.lower():
+                return mission
+    
+    if active_final_missions["name"].lower() == name.lower():
+        return active_final_missions
+    
     return None
 
 def show_screen():
@@ -162,7 +172,11 @@ def start_game():
 
             if mission is not None:
                 complete_mission(mission)
-                active_missions.remove(mission)
+
+                if mission in active_missions:
+                    active_missions.remove(mission)
+                elif mission == active_final_missions:
+                    print("FINAL MISSION COMPLETED!")
 
             else:
                 print("Mission not found.")
@@ -192,9 +206,16 @@ menu = int(input("What are we gonna do?: "))
 
 if menu == 1:
     new_mission()
+    
 elif menu == 2:
+
     activate_missions()
+
     print("\nYour missions are:")
+
     for mission in active_missions:
         print("-", mission["name"])
+
+    print("- Final:", active_final_missions["name"])
+
     start_game()
