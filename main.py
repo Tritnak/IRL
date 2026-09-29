@@ -29,14 +29,16 @@ inventory = [
 ]
 
 active_missions = []
-active_final_missions = None
+active_final_missions = []
 own_missions = []
 
 game_completed = False
 
-file = "save.json"
+new_file = "save.json"
 
 def save_game():
+    global new_file
+
     data = {
         "level": level,
         "xp": xp,
@@ -53,16 +55,17 @@ def save_game():
         "game_completed": game_completed
     }
 
-    with open(file, "w") as file:
+    with open(new_file, "w") as file:
         json.dump(data, file, indent = 4)
 
 def load_game():
-    global level, xp, next_level, gc, skills, completed_missions, secrets, achievements, inventory, active_missions, active_final_missions, missions, game_completed
+    global level, xp, next_level, gc, skills, completed_missions, secrets, unlocked_achievements, inventory, active_missions, active_final_missions, missions, game_completed
+    global new_file
 
-    if not os.path.exists(file):
+    if not os.path.exists(new_file):
         return False
 
-    with open(file, "r") as file:
+    with open(new_file, "r") as file:
         data = json.load(file)
 
     level = data["level"]
@@ -157,8 +160,10 @@ def complete_mission(mission):
     global xp, gc, completed_missions
 
     print()
+    print("==============================")
     print("Mission completed")
     print(mission["name"])
+    print("==============================")
 
     xp += mission["xp"]
     gc += mission["gc"]
@@ -187,10 +192,10 @@ def search_mission(name):
         if mission["name"].lower() == name.lower():
             return mission
 
-    if active_final_mission is not None:
-        if active_final_mission["name"].lower() == name.lower():
+    if len(active_final_missions) != 0:
+        if active_final_missions["name"].lower() == name.lower():
             if len(active_missions) == 0:
-                return active_final_mission
+                return active_final_missions
             else:
                 print("The final mission is still locked")
                 print("Complete all normal missions first")
@@ -244,9 +249,11 @@ def unlock_achievement(achievement_id):
         achievement = achievements[achievement_id]
 
         print()
+        print("==============================")
         print("ACHIEVEMENT UNLOCKED!")
         print(achievement["name"])
         print(achievement["description"])
+        print("==============================")
 
         save_game()
 
@@ -275,7 +282,7 @@ def show_screen():
     print("╚════════════════════════════════════╝")
     
 def new_game():
-    global level, xp, next_level, gc, skills, completed_missions, secrets, unlocked_achievements, inventory, active_missions, active_final_mission, game_completed
+    global level, xp, next_level, gc, skills, completed_missions, secrets, unlocked_achievements, inventory, active_missions, active_final_missions, game_completed
 
     level = 0
     xp = 0
@@ -303,7 +310,7 @@ def new_game():
     ]
 
     active_missions = choose_missions()
-    active_final_mission = choose_final_mission()
+    active_final_missions = choose_final_mission()
 
     save_game()
 
@@ -353,7 +360,7 @@ def start_game():
                     print("\nAll normal missions completed")
                     print("Final mission unlocked!")
 
-                elif mission == active_final_mission:
+                elif mission == active_final_missions:
                     game_completed = True
                     unlock_achievement("game_completed")
                     
@@ -388,7 +395,7 @@ def start_game():
                 else:
                     print("[LOCKED]", achievement["name"])
         elif option == 0:
-            print("Game exited")
+            print("Game saved")
             break
 
         else:
@@ -398,6 +405,7 @@ def start_game():
 print("1. Add mission")
 print("2. New game")
 print("3. Continue")
+print("0. Exit")
 
 menu = int(input("What are we gonna do?: "))
 
@@ -412,7 +420,7 @@ elif menu == 2:
     for mission in active_missions:
         print("-", mission["name"])
 
-    print("- Final:", active_final_mission["name"])
+    print("- Final:", active_final_missions["name"])
 
     start_game()
 
@@ -424,9 +432,13 @@ elif menu == 3:
         for mission in active_missions:
             print("-", mission["name"])
 
-        print("- Final:", active_final_mission["name"])
+        print("- Final:", active_final_missions["name"])
 
         start_game()
+
+elif menu == 0:
+    print("Bye!")
+    KeyboardInterrupt
 
 else:
     print("Invalid option")
